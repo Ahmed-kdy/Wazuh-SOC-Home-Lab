@@ -90,9 +90,9 @@ SOC-Home-Lab/
 
 | # | Use Case | Tool | Status |
 |---|----------|------|--------|
-| 01 | Port Scan Detection | Suricata | (detections/01-port-scan-detection.md) | Suricata | ✅ Complete |
-| 02 |[ Brute Force Login Attempt ]( detections/02-brute-force-login-attempt.md )| Hydra / Medusa+Wazuh |✅ Complete |
-| 03 | Suspicious Process Creation | Sysmon + Wazuh | 🔄 In Progress |
+| 01 | [Port Scan Detection](detections/01-port-scan-detection.md) | Suricata | ✅ Complete |
+| 02 | [Brute Force Login Attempt](detections/02-brute-force-login-attempt.md) | Hydra / Medusa + Wazuh | ✅ Complete |
+| 03 | [Suspicious Process Creation — Encoded PowerShell Download Cradle](detections/03-suspicious-process-creation-encoded-powershell.md) | Sysmon + Wazuh | ✅ Complete |
 | 04 | Vulnerability Discovery | Nessus + OpenVAS | 🔄 In Progress |
 
 ---
