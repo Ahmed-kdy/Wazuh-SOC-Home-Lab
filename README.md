@@ -101,7 +101,8 @@ SOC-Home-Lab/
 
 **Phase 1 — Infrastructure** ✅ Complete
 
-**Phase 2 — Detection Engineering** 🔄 In Progress
+**Phase 2 — Detection Engineering** ✅ Complete
+*(Future enhancement: custom correlation rule chaining 60122→60115→60200 into a single composite alert)*
 
 **Phase 3 — Threat Hunting** 📅 Planned
 
