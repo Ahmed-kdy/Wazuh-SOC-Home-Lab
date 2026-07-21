@@ -16,13 +16,13 @@
 │  │─────────────────│        │─────────────────────│    │
 │  │ • Wazuh Manager │◄───────│ • Wazuh Agent        │    │
 │  │ • Suricata IDS  │        │ • Sysmon             │    │
-│  │ • OpenVAS       │        └─────────────────────┘    │
+│  │       │                  └─────────────────────┘    │
 │  └────────┬────────┘                                    │
 │           │         ┌─────────────────────┐            │
 │           └────────►│     Kali Linux       │            │
 │                     │─────────────────────│            │
 │                     │ • Nessus Essentials  │            │
-│                     │ • OpenVAS Client     │            │
+│                     │
 │                     │ • Attack Simulation  │            │
 │                     └─────────────────────┘            │
 └─────────────────────────────────────────────────────────┘
@@ -34,9 +34,9 @@
 
 | Host | Role | Tools |
 |------|------|-------|
-| Ubuntu Server | SIEM + IDS + Scanner | Wazuh Manager, Suricata, OpenVAS |
+| Ubuntu Server | SIEM + IDS + Scanner | Wazuh Manager, Suricata |
 | Windows 10 | Monitored Endpoint | Wazuh Agent, Sysmon |
-| Kali Linux | Attacker / Scanner | Nessus Essentials, OpenVAS |
+| Kali Linux | Attacker / Scanner | Nessus Essentials |
 
 ---
 
@@ -45,7 +45,7 @@
 - Centralized log collection from all endpoints into Wazuh
 - Deep endpoint visibility via Sysmon event logging on Windows
 - Real-time network threat detection with Suricata IDS
-- Vulnerability scanning and reporting with Nessus and OpenVAS
+- Vulnerability scanning and reporting with Nessus 
 - End-to-end alert triage and incident investigation workflow
 - Detection engineering — writing and tuning custom rules
 
@@ -55,9 +55,6 @@
 
 ```
 SOC-Home-Lab/
-│
-├── architecture/
-│   └── network-diagram.png
 │
 ├── wazuh/
 │   ├── setup-notes.md
@@ -76,10 +73,9 @@ SOC-Home-Lab/
 │
 ├── vulnerability-management/
 │   ├── nessus/
-│   │   └── screenshots/
-│   └── openvas/
-│       └── screenshots/
-│
+│      └── screenshots/
+│   
+│     
 └── detections/
     └── [Detection use cases documented here]
 ```
