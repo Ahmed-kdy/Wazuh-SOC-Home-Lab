@@ -104,9 +104,7 @@ SOC-Home-Lab/
 **Phase 2 — Detection Engineering** ✅ Complete
 *(Future enhancement: custom correlation rule chaining 60122→60115→60200 into a single composite alert)*
 
-**Phase 3 — Threat Hunting** 📅 Planned
-
-**Phase 4 — Incident Response Playbooks** 📅 Planned
+**Phase 3 — Incident Response Playbooks** 📅 Planned
 
 ---
 
